@@ -1,0 +1,78 @@
+<style>                                           
+  
+    .root{
+    width: 1000px;
+    height: auto;
+   background:white;
+    border-radius: 10px;
+    padding:10px
+    
+    }
+  
+  
+  
+          
+    .cover{
+          
+          display: flex;
+         justify-content: center;
+     
+         align-items: center;
+        height: 120vh;
+        
+        background:url('/images/Res.jpeg')
+     
+                   
+    }
+  </style>
+  
+  
+  
+  
+  
+  <html>
+  
+      <head>
+  
+          <!--Import Google Icon Font-->
+          <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  
+  
+  
+    
+          <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> 
+  <script src="project.js"></script>
+  <script>
+      
+    $(document).ready(function(){
+      $('select').formSelect();
+    });
+          
+  </script>
+      </head>
+  
+  
+      <body>
+        <div class="cover">
+        <div class="root">
+          <div class="input-field col s12 m6">
+              <select class="icons">
+                <option value="" disabled selected>Choose your option</option>
+                <option value="" data-icon="/images/PS.jpeg">Paneer Steak</option>
+                <option value="" data-icon="/images/Bp.jpeg">Buttered Potatoes</option>
+                <option value="" data-icon="/images/Mc.jpeg">Macroni Cheese</option>
+              </select>
+              <label>Images in select</label>
+            </div>
+        </div>
+        </div>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+      </body>
+  
+  </html>
